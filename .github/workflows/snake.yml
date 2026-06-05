@@ -26,11 +26,12 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           # Define the output files and their configurations
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=#ff9900&color_dots=#ebedf0,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake-dark.svg?color_snake=#00ffff&color_dots=#161b22,#4d004d,#990099,#cc00cc,#ff00ff
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 這裡改用你剛申請的 PAT_1，這樣才能讀取到 Private 專案的綠點！
+          GITHUB_TOKEN: ${{ secrets.PAT_1 }}
       # Step 3: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
