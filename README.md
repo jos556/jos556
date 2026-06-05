@@ -62,8 +62,8 @@
 
 <div align="center">
   <h3>GitHub Statistics</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jos556&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://github-readme-stats.vercel.app/api?username=jos556&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats-navy-mu-11.vercel.app/api/top-langs?username=jos556&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats-navy-mu-11.vercel.app/api?username=jos556&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jos556&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
 </div>
 
@@ -78,7 +78,7 @@
 ###
 
 <div align="center">
-  <img height="250" src="https://raw.githubusercontent.com/jos556/upload_image/refs/heads/main/public/jos556's%20Page.png" alt="Profile Image" />
+  <img height="250" src="images/jos556's%20Page.png" alt="Profile Image" />
 </div>
 
 
